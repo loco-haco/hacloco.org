@@ -34,8 +34,8 @@ export default function Home() {
           className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
           src="/haclogo.svg"
           alt="hacloco Logo"
-          width={180}
-          height={37}
+          width={250}
+          height={50}
           priority
         />
       </div>
@@ -91,6 +91,24 @@ export default function Home() {
             calander of recreational hacking/making/tech meetups 
           </p>
         </a>
+        <a
+          href="/steampunks
+          "
+          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
+          target=" "
+          rel="noopener noreferrer"
+        >
+          <h2 className={`mb-3 text-2xl font-semibold`}>
+            Brambleton STEAMPunks{" "}
+            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
+              -&gt;
+            </span>
+          </h2>
+          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
+            K-12 S.T.E.A.M.-Powered learning
+          </p>
+        </a>
+
 
         <a
           href="/get-involved"  
