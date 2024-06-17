@@ -14,8 +14,8 @@ export default function Home() {
             href="#"
             target=" "
             rel="noopener noreferrer"
-          >
-            Copied from{" "}
+          > a NVaTech production, Work In-Progress
+           {/*Copied from{" "}
             <Image
               src="/vercel.svg"
               alt="Vercel Logo"
@@ -24,7 +24,7 @@ export default function Home() {
               height={24}
               priority
             />
-             by geof.hoffman{" "}
+             by geof.hoffman{" "}*/}
           </a>
         </div>
       </div>
@@ -91,7 +91,7 @@ export default function Home() {
             calander of recreational hacking/making/tech meetups 
           </p>
         </a>
-        <a
+       {/*  <a
           href="/steampunks
           "
           className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
@@ -99,7 +99,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           <h2 className={`mb-3 text-2xl font-semibold`}>
-            Brambleton STEAMPunks{" "}
+            STEAMPunks{" "}
             <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
               -&gt;
             </span>
@@ -108,7 +108,7 @@ export default function Home() {
             K-12 S.T.E.A.M.-Powered learning
           </p>
         </a>
-
+*/}
 
         <a
           href="/get-involved"  
