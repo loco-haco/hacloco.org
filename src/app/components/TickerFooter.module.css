@@ -1,0 +1,36 @@
+/* components/TickerFooter.module.css */
+
+.tickerContainer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333; /* Change this to your desired background */
+    color: #fff;
+    overflow: hidden;
+    white-space: nowrap;
+    z-index: 999;
+  }
+  
+  .tickerList {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    animation: tickerAnimation 40s linear infinite;
+  }
+  
+  .tickerItem {
+    padding: 10px 20px;
+    white-space: nowrap;
+  }
+  
+  @keyframes tickerAnimation {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
