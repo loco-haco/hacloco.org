@@ -1,5 +1,12 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+
+import Head from 'next/head'
+import Link from 'next/link'
+import Footer from "./components/footer"
+
+
+
 import {
   ClerkProvider,
   SignInButton,
@@ -26,8 +33,13 @@ export default function RootLayout({ children }) {
           <SignedIn>
             <UserButton />
           </SignedIn>
-        {children}</body>
+        {children}
+        <Footer/>
+        </body>
+     
     </html>
-    </ClerkProvider>
+   
+      </ClerkProvider>
+      
   );
 }

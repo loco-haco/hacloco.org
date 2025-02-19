@@ -1,0 +1,72 @@
+/* Apple IIe Terminal Style */
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+body {
+    background-color: black;
+    color: #33ff33; /* Classic green monochrome */
+    font-family: 'Press Start 2P', monospace;
+    text-shadow: 0 0 5px #33ff33;
+    padding: 20px;
+}
+
+p {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid #33ff33;
+    padding: 10px;
+    display: block;
+    width: fit-content;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+h1 {
+    font-size: 32px;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 18px;
+}
+h4 { font-size: 12px;
+}
+
+a {
+    color: #33ff33;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Optional: Blinking Cursor Effect */
+@keyframes blink {
+    50% { opacity: 0; }
+}
+
+.blinking-cursor::after {
+    content: '_';
+    display: inline-block;
+    animation: blink 1s step-start infinite;
+}
