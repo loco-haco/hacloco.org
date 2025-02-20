@@ -44,7 +44,7 @@ SQL is the language used to interact with relational databases like PostgreSQL, 
 On the other hand, NoSQL databases like MongoDB, and Cassandra are great choices for applications that require flexibility in data structure or real-time capabilities.
 </h4><br/><h4>  
 
-Understanding ORMs (Object-Relational Mapping) tools like SQLAlchemy (Python), Hibernate (Java), or Sequelize (Node.js) will also make your work easier by mapping database records to objects in your code.
+Understanding ORMs (Object-Relational Mapping) tools like SQLAlchemy (Python), Hibernate (Java), or Sequelize or prisma(Node.js) will also make your work easier by mapping database records to objects in your code. 
 </h4><br/><h4>  
 Working with APIs: Connecting Your App with the World
 APIs (Application Programming Interfaces) are what allow different software applications to communicate with each other. Whether you’re building or consuming APIs, learning to work with RESTful APIs and GraphQL is essential for modern software development.
@@ -72,25 +72,9 @@ Cloud Platforms & DevOps: Scaling and Deploying Applications
 As applications become more complex, deploying them reliably becomes a key skill. Cloud platforms like AWS, Google Cloud, and Microsoft Azure provide the infrastructure you need to host, scale, and manage your apps.
 Learn to use Cloud services like EC2 for computing, S3 for storage, and Lambda for serverless computing to streamline your app’s architecture.
 </h4><br/><h4>  
+(My personal preference is opensource and self-hosted but knowing cloud platforms can be essential depending on a task, even if the task is migrating away from cloud platforms. While open source cloud solutions exist, becuase of the substantial investment in infrastructure to operate in the cloud, the opensource software is probably still running on metal owned by a cloud provider that isn't opensource. )
+</h4><br/><h4>
 
-DevOps tools like Jenkins and GitHub Actions will help you automate the process of testing, building, and deploying your applications, ensuring smoother and faster releases.
-(My personal preference is open source and self-hosted but knowing cloud platforms can be essential depending on a task, even if the task is migrating away from cloud platforms. While open source cloud solutions exist, )
-</h4><br/><h4>  
-
-
-Software Testing: Ensuring Quality and Reliability
-Writing good code isn’t enough; you need to ensure that your code behaves as expected. Software testing is a critical part of the development process.
-Unit testing frameworks like Jest (JavaScript), JUnit (Java), and PyTest (Python) allow you to test individual components of your code.
-</h4><br/><h4>  
-
-End-to-End Testing tools like Cypress or Selenium will help you simulate user interactions and test full workflows in your app.
-</h4><br/><h4>  
-
-Learning Test-Driven Development (TDD), where tests are written before the code, will also help ensure your code is maintainable and bug-free.
-</h4><br/><h4>  
-Mobile App Development: Reach a Broader Audience
-As mobile devices continue to dominate, learning mobile app development opens up new opportunities. You can either go the native route by learning Swift (for iOS) or Kotlin/Java (for Android), or choose cross-platform frameworks like Flutter or React Native to build apps for both iOS and Android simultaneously.
-</h4><br/><h4>  
 Security Best Practices: Protecting Your Applications
 Security is a priority in any application. As a developer, you should know how to implement authentication and authorization mechanisms (e.g., OAuth, JWT) to protect user data.
 Familiarize yourself with the OWASP Top 10, a list of the most common web security vulnerabilities, so you can avoid pitfalls like SQL Injection and Cross-Site Scripting (XSS).
@@ -98,14 +82,7 @@ Familiarize yourself with the OWASP Top 10, a list of the most common web securi
 
 Learning how to encrypt sensitive data using SSL/TLS and ensuring proper HTTPS configurations will help keep your apps secure.
 </h4><br/><h4>  
-
-
-User Experience (UX) & UI Design: Designing for Users
-Great development isn’t just about code—it’s also about design. Whether you’re building a website or an app, having a basic understanding of UX/UI design principles will help you create more intuitive and visually appealing products.
-Tools like Figma, Sketch, or Adobe XD are invaluable for prototyping and testing user interfaces.
-</h4><br/><h4>  
-Creative Tools: Bringing Your Vision to Life
-For those in internet-based creative work, such as graphic design, video editing, or animation, proficiency in tools like Adobe Photoshop, Illustrator, Premiere Pro, and After Effects will help you produce professional-grade content.
+You're also going to want to be comfortable working inside linux. Once you understand linux, the file system and how to use applications and make and modify files, it's beneficial to familiarize yourself with toolkits and specific distros like Kali. Exploring avaialble tools can be a great way to begin to understand what is possible.   
 </h4><br/><h4>  
 Conclusion: A Holistic Approach to Development
 In today’s fast-paced tech world, learning the technical tools and frameworks is only part of the equation. Combining these hard skills with creativity, communication, and problem-solving abilities will set you apart as a well-rounded developer or creative professional.
