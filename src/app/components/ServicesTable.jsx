@@ -1,0 +1,48 @@
+import React from 'react';
+
+const servicesData = [
+  {
+    service: 'ngrok',
+    type: 'Ingress-as-a-Service (Tunneling)',
+    freeTier: '4 tunnels, 40 connections/min, random subdomains, HTTP/HTTPS/TCP support',
+    sizeLimits: 'None',
+    rateLimits: '40 connections/min',
+    restrictions: 'Non-commercial use, random subdomains, no UDP support',
+    creditCard: 'No',
+    openSource: 'No (was open-source in v1, now proprietary)',
+  },
+  {
+    service: 'UploadThing',
+    type: 'File Storage',
+    freeTier: '2 GB storage, 100 MB max file size, unlimited uploads',
+    sizeLimits: '2 GB total, 100 MB/file',
+    rateLimits: 'None',
+    restrictions: 'Non-commercial use, API key required',
+    creditCard: 'No',
+    openSource: 'No',
+  },
+  {
+    service: 'GitHub Pages',
+    type: 'Static Site Hosting',
+    freeTier: 'Unlimited public sites, custom domains, HTTPS',
+    sizeLimits: '1 GB/repository, 100 MB/file',
+    rateLimits: '100 GB bandwidth/month, 10 builds/hour',
+    restrictions: 'Static content only, no server-side code',
+    creditCard: 'No',
+    openSource: 'Yes (platform proprietary, content often open-source)',
+  },
+  {
+    service: 'Vercel',
+    type: 'Static Site Hosting',
+    freeTier: 'Unlimited sites, 100 GB bandwidth, 1000 serverless function invocations/day',
+    sizeLimits: '1 GB/project',
+    rateLimits: '100 deployments/day, 100k edge function invocations/month',
+    restrictions: 'Non-commercial, 3 projects/repository, no SLA',
+    creditCard: 'No',
+    openSource: 'No',
+  },
+  {
+    service: 'MongoDB Atlas',
+    type: 'Database (NoSQL)',
+    freeTier: '512 MB storage, shared cluster',
+    sizeLimits: '512 MB,
